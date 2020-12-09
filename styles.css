@@ -3,23 +3,21 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
- 
 }
 
 h1 {
-
   text-align: center;
 }
 
 textarea {
   font-size: larger;
-  width: 50%;
-  height: 16vh;
+  width: 55%;
+  height: 18vh;
   display: block;
   margin: auto;
   padding: 1rem;
   border-color: black;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 
 #btn-translate {
@@ -27,37 +25,54 @@ textarea {
   font-weight: bolder;
   background-color: yellow;
   display: block;
-  margin: 2rem 30rem;
- 
+  /**margin: 2rem 30rem;**/
+  margin: 2rem auto;
   padding: 1rem;
-  position: relative;
-  border-radius: 1rem;
-  
+  border-radius: 0.5rem;
+  box-sizing: border-box;
 }
 
 .translation-div {
   font-size: larger;
   font-weight: bolder;
-  margin-left: 30rem;
+  /**margin-left: 30rem;
+  margin-bottom: 1rem;**/
+  box-sizing: border-box;
+  text-align: center;
   margin-bottom: 1rem;
-  vertical-align: top;
 }
 
 #output-text {
   background-color:rgba(238, 233, 221, 0.9);
   font-size: larger;
-  width: 50%;
-  height: 16vh;
+  width: 55%;
+  height: 18vh;
   margin: auto;
   padding: 1rem;
   border-color: black;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 
-#footer-txt{
-  font-size: larger;
+/**#footer-txt {
+  font-size: large;
   font-weight: bolder;
-  text-align: center;
-  margin-top: 7rem;
-  padding: 3rem;
+  text-align:center;
+ 
+    bottom:0;
+    position:absolute;
+    width: 85%;
+    padding:1rem;
+    line-height: 1.5rem;
+} **/
+
+#footer-txt {
+  font-size: large;
+  font-weight: bolder;
+  text-align:center;
+ 
+    bottom:0;
+    position:absolute;
+    width: 85%;
+    padding:1rem;
+    line-height: 1.5rem;
 }

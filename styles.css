@@ -1,36 +1,51 @@
 body {
-    background-image: url('/images/banana-background.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
-   
-  }
+  background-image: url('/images/banana-background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+ 
+}
 
-  h1 {
-    text-align: center;
-    
-  }
-  
-  textarea {
-    width: 80%;
-    height: 10vh;
-    display: block;
-    margin: 1rem;
-    padding: 1rem;
-  }
+h1 {
+  text-align: center;
+}
 
-  #btn-translate {
-    font-size: larger;
-    font-weight: bolder;
-    background-color: rgb(255, 255, 0);
-    margin: 1rem;
-    padding: 1rem;
-  }
-  
-  #output-text {
-    border: 1px solid black;
-    height: 10vh;
-    width: 80%;
-    margin: 1rem;
-    padding: 1rem;
-  }
+textarea {
+  font-size: larger;
+  width: 50%;
+  height: 16vh;
+  display: block;
+  margin: auto;
+  padding: 1rem;
+  border-color: black;
+  border-radius: 1rem;
+}
+
+#btn-translate {
+  font-size: larger;
+  font-weight: bolder;
+  background-color: yellow;
+  display: block;
+  margin: 2rem 30rem;
+  padding: 1rem;
+  /* margin-top: 2rem; */
+  border-radius: 1rem;
+}
+
+.translation-div {
+  font-size: larger;
+  font-weight: bolder;
+  margin-left: 30rem;
+  margin-bottom: 1rem;
+}
+
+#output-text {
+  background-color:rgba(238, 233, 221, 0.9);
+  font-size: larger;
+  width: 50%;
+  height: 16vh;
+  margin: auto;
+  padding: 1rem;
+  border-color: black;
+  border-radius: 1rem;
+}

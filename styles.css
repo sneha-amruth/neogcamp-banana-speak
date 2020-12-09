@@ -1,6 +1,36 @@
 body {
-    background-image: url('https://cdn5.vectorstock.com/i/1000x1000/01/99/banana-background-yellow-banana-pattern-vector-20450199.jpg');
+    background-image: url('/images/banana-background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
+   
+  }
+
+  h1 {
+    text-align: center;
+    
+  }
+  
+  textarea {
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  #btn-translate {
+    font-size: larger;
+    font-weight: bolder;
+    background-color: rgb(255, 255, 0);
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  #output-text {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
   }

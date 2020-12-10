@@ -60,12 +60,11 @@ footer {
   font-weight: bolder;
   text-align:center;
   position: relative;
-  bottom: 0;
   width: 100%;
   padding: 2rem;
   display: block;
 }
 
 #footer-txt h1,p {
-  padding: 0rem;
+  padding: 0rem; 
 }

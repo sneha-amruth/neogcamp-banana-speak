@@ -29,8 +29,8 @@ textarea {
   font-weight: bolder;
   background-color: #fdde41;
   display: block;
-  margin: 2rem auto;
-  padding: 1rem;
+  margin: 1.8rem auto;
+  padding: 0.5rem;
   border-radius: 0.5rem;
   box-sizing: border-box;
 }

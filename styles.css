@@ -56,6 +56,9 @@ textarea {
 }
 
 footer {
+  font-size: large;
+  font-weight: bolder;
+  text-align:center;
   position: fixed;
     bottom: 0;
     width: 100%;
@@ -63,11 +66,9 @@ footer {
     display: block;
 }
 #footer-txt {
-  font-size: large;
-  font-weight: bolder;
-  text-align:center;
-  display: block;
-  position: fixed;
-  bottom: 0;
+  padding: 0rem;
+}
+
+#footer-txt h1,p {
   padding: 0rem;
 }

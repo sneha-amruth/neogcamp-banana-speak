@@ -59,7 +59,7 @@ footer {
   font-size: large;
   font-weight: bolder;
   text-align:center;
-  position: fixed;
+  position: relative;
     bottom: 0;
     width: 100%;
     padding: 1rem;

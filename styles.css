@@ -3,10 +3,11 @@
 }
 
 body {
-  background-image: url('/images/banana-background.jpg');
+ /** background-image: url('/images/banana-background.jpg');**/
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
+  background-color: #00b9bc;
 }
 
 h1 {
@@ -56,7 +57,7 @@ textarea {
 }
 
 footer {
-  font-size: large;
+  font-size: larger;
   font-weight: bolder;
   text-align:center;
   position: relative;

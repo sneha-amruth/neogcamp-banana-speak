@@ -2,7 +2,6 @@ var btnTranslate = document.querySelector("#btn-translate");
 var inputTxt = document.querySelector("#input-text");
 var outputTxt = document.querySelector("#output-text");
 
-/**outputTxt.innerHTML = "Hi "+inputTxt.value;**/
 
 function errorHandler(error){
      console.log("Error occured", error);
